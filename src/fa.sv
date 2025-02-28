@@ -17,6 +17,10 @@ module fa_module
 
     and u2(i1, A, B);
 
-    or u4(Cout, i1, i2);
+    or u1(Cout, i1, i2);
+
+    xor u3(S, i0, Cin);
+    
+    or u4(i2, i0, Cin);
 
 endmodule: fa_module
