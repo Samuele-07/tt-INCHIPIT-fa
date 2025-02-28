@@ -21,6 +21,6 @@ module fa_module
 
     xor u3(S, i0, Cin);
     
-    or u4(i2, i0, Cin);
+    and u4(i2, i0, Cin);
 
 endmodule: fa_module
